@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class FizzBuzz {
@@ -12,10 +11,13 @@ public class FizzBuzz {
         this.end = end;
     }
 
-    public List<Integer> list() {
-        List<Integer> fizzBuzzList = new ArrayList<>();
+    public List<String> list() {
+        List<String> fizzBuzzList = new ArrayList<>();
         for (int i = start; i <= end; i++) {
-            fizzBuzzList.add(i);
+            if (i % 3 == 0) {
+                fizzBuzzList.add("Fizz");
+            }
+            fizzBuzzList.add(String.valueOf(i));
         }
         return fizzBuzzList;
     }

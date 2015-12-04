@@ -1,9 +1,5 @@
 import org.junit.Before;
 import org.junit.Test;
-
-import java.util.Arrays;
-import java.util.List;
-
 import static org.junit.Assert.*;
 
 public class FizzBuzzTest {
@@ -16,13 +12,16 @@ public class FizzBuzzTest {
 
     @Test
     public void shouldReturnOneAsSecondElement() {
-        List<Integer> testList = Arrays.asList(1);
-        assertEquals(testList.get(0), fizzBuzz.list().get(0));
+        assertEquals("1", fizzBuzz.list().get(0));
     }
 
     @Test
     public void shouldReturnTwoAsSecondElement() {
-        List<Integer> testList = Arrays.asList(1, 2);
-        assertEquals(testList.get(1), fizzBuzz.list().get(1));
+        assertEquals("2", fizzBuzz.list().get(1));
+    }
+
+    @Test
+    public void shouldReturnFizzAsThirdElement() {
+        assertEquals("Fizz", fizzBuzz.list().get(2));
     }
 }
