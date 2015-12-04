@@ -11,6 +11,13 @@ public class FizzBuzz {
         this.end = end;
     }
 
+    public static void main(String[] args) {
+        FizzBuzz fizzBuzz = new FizzBuzz(1, 100);
+        for (String element : fizzBuzz.list()) {
+            System.out.println(element);
+        }
+    }
+
     public List<String> list() {
         List<String> fizzBuzzList = new ArrayList<>();
         for (int i = start; i <= end; i++) {
