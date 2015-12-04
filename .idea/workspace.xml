@@ -29,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/src/FizzBuzz.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+              <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,18 +40,20 @@
       <file leaf-file-name="FizzBuzzTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/FizzBuzzTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.738758">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.16488223">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#229#230#0" expanded="true" />
-                <element signature="e#276#277#0" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
-                <element signature="e#457#458#0" expanded="true" />
-                <element signature="e#514#515#0" expanded="true" />
-                <element signature="e#576#577#0" expanded="true" />
-                <element signature="e#636#637#0" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#407#408#0" expanded="true" />
+                <element signature="e#464#465#0" expanded="true" />
+                <element signature="e#526#527#0" expanded="true" />
+                <element signature="e#586#587#0" expanded="true" />
+                <element signature="e#648#649#0" expanded="true" />
+                <element signature="e#708#709#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,8 +80,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/FizzBuzz.java" />
         <option value="$PROJECT_DIR$/test/FizzBuzzTest.java" />
+        <option value="$PROJECT_DIR$/src/FizzBuzz.java" />
       </list>
     </option>
   </component>
@@ -164,27 +166,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.FizzBuzzTest">
-    <configuration default="false" name="FizzBuzzTest.shouldReturnOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="FizzBuzz" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FizzBuzzTest" />
-      <option name="METHOD_NAME" value="shouldReturnOne" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="false" name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="FizzBuzz" />
@@ -256,6 +237,27 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FizzBuzzTest" />
       <option name="METHOD_NAME" value="shouldReturnFizzAsThirdElement" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="FizzBuzzTest.shouldReturnBuzzAsFifthElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="FizzBuzz" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FizzBuzzTest" />
+      <option name="METHOD_NAME" value="shouldReturnBuzzAsFifthElement" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -514,19 +516,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.shouldReturnOne" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.shouldReturnOneAsSecondElement" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.shouldReturnTwoAsSecondElement" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.shouldReturnFizzAsThirdElement" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.shouldReturnOneAsSecondElement" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.shouldReturnTwoAsSecondElement" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.shouldReturnFizzAsThirdElement" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.shouldReturnBuzzAsFifthElement" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.shouldReturnFizzAsThirdElement" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.shouldReturnTwoAsSecondElement" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.shouldReturnOneAsSecondElement" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.shouldReturnOne" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.shouldReturnBuzzAsFifthElement" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.shouldReturnFizzAsThirdElement" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.shouldReturnTwoAsSecondElement" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.shouldReturnOneAsSecondElement" />
       </list>
     </recent_temporary>
   </component>
@@ -556,23 +558,23 @@
     <history-entry file="FizzBuzzTest - 2015.12.04 at 01h 54m 30s.xml">
       <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FizzBuzzTest - 2015.12.04 at 01h 55m 18s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest_shouldReturnBuzzAsFifthElement - 2015.12.04 at 01h 58m 08s.xml">
+      <configuration name="FizzBuzzTest.shouldReturnBuzzAsFifthElement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest_shouldReturnBuzzAsFifthElement - 2015.12.04 at 01h 59m 53s.xml">
+      <configuration name="FizzBuzzTest.shouldReturnBuzzAsFifthElement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest_shouldReturnBuzzAsFifthElement - 2015.12.04 at 02h 00m 25s.xml">
+      <configuration name="FizzBuzzTest.shouldReturnBuzzAsFifthElement" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="FizzBuzzTest_shouldReturnFizzAsThirdElement - 2015.12.04 at 01h 52m 10s.xml">
       <configuration name="FizzBuzzTest.shouldReturnFizzAsThirdElement" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FizzBuzzTest_shouldReturnFizzAsThirdElement - 2015.12.04 at 01h 54m 02s.xml">
       <configuration name="FizzBuzzTest.shouldReturnFizzAsThirdElement" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzTest_shouldReturnOneAsSecondElement - 2015.12.04 at 01h 47m 44s.xml">
-      <configuration name="FizzBuzzTest.shouldReturnOneAsSecondElement" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzTest_shouldReturnTwoAsSecondElement - 2015.12.04 at 01h 45m 23s.xml">
-      <configuration name="FizzBuzzTest.shouldReturnTwoAsSecondElement" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzTest_shouldReturnTwoAsSecondElement - 2015.12.04 at 01h 45m 41s.xml">
-      <configuration name="FizzBuzzTest.shouldReturnTwoAsSecondElement" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzTest_shouldReturnTwoAsSecondElement - 2015.12.04 at 01h 47m 54s.xml">
-      <configuration name="FizzBuzzTest.shouldReturnTwoAsSecondElement" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -618,7 +620,7 @@
     <entry file="file://$PROJECT_DIR$/src/FizzBuzz.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -627,18 +629,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/FizzBuzzTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.738758">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.16488223">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
           </folding>
         </state>
       </provider>

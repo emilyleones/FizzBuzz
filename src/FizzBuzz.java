@@ -16,8 +16,11 @@ public class FizzBuzz {
         for (int i = start; i <= end; i++) {
             if (i % 3 == 0) {
                 fizzBuzzList.add("Fizz");
+            } else if (i % 5 == 0) {
+                fizzBuzzList.add("Buzz");
+            } else {
+                fizzBuzzList.add(String.valueOf(i));
             }
-            fizzBuzzList.add(String.valueOf(i));
         }
         return fizzBuzzList;
     }
