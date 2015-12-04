@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce5b4d03-bc67-456d-ba20-e6d2fa296b02" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FizzBuzz.java" afterPath="$PROJECT_DIR$/src/FizzBuzz.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/FizzBuzzTest.java" afterPath="$PROJECT_DIR$/test/FizzBuzzTest.java" />
@@ -31,10 +31,9 @@
         <entry file="file://$PROJECT_DIR$/src/FizzBuzz.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
               <folding>
-                <element signature="e#50#51#0" expanded="true" />
-                <element signature="e#74#75#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,8 +42,8 @@
       <file leaf-file-name="FizzBuzzTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/FizzBuzzTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19271949">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.77087796">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,8 +72,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/FizzBuzzTest.java" />
         <option value="$PROJECT_DIR$/src/FizzBuzz.java" />
+        <option value="$PROJECT_DIR$/test/FizzBuzzTest.java" />
       </list>
     </option>
   </component>
@@ -189,6 +188,48 @@
       <option name="MAIN_CLASS_NAME" value="FizzBuzzTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="FizzBuzzTest.shouldReturnOneAsSecondElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="FizzBuzz" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FizzBuzzTest" />
+      <option name="METHOD_NAME" value="shouldReturnOneAsSecondElement" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="FizzBuzzTest.shouldReturnTwoAsSecondElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="FizzBuzz" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FizzBuzzTest" />
+      <option name="METHOD_NAME" value="shouldReturnTwoAsSecondElement" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -445,18 +486,25 @@
       <listeners />
       <method />
     </configuration>
-    <list size="2">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.shouldReturnOne" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.shouldReturnOneAsSecondElement" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.shouldReturnTwoAsSecondElement" />
     </list>
     <recent_temporary>
-      <list size="2">
+      <list size="4">
         <item index="0" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.shouldReturnOne" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.shouldReturnTwoAsSecondElement" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.shouldReturnOneAsSecondElement" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest.shouldReturnOne" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ce5b4d03-bc67-456d-ba20-e6d2fa296b02" name="Default" comment="" />
@@ -467,11 +515,32 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="FizzBuzzTest - 2015.12.04 at 01h 38m 36s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="FizzBuzzTest_shouldReturnOne - 2015.12.04 at 01h 38m 18s.xml">
       <configuration name="FizzBuzzTest.shouldReturnOne" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FizzBuzzTest_shouldReturnOne - 2015.12.04 at 01h 38m 29s.xml">
       <configuration name="FizzBuzzTest.shouldReturnOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest_shouldReturnOneAsSecondElement - 2015.12.04 at 01h 44m 47s.xml">
+      <configuration name="FizzBuzzTest.shouldReturnOneAsSecondElement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest_shouldReturnOneAsSecondElement - 2015.12.04 at 01h 45m 21s.xml">
+      <configuration name="FizzBuzzTest.shouldReturnOneAsSecondElement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest_shouldReturnOneAsSecondElement - 2015.12.04 at 01h 47m 44s.xml">
+      <configuration name="FizzBuzzTest.shouldReturnOneAsSecondElement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest_shouldReturnTwoAsSecondElement - 2015.12.04 at 01h 45m 23s.xml">
+      <configuration name="FizzBuzzTest.shouldReturnTwoAsSecondElement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest_shouldReturnTwoAsSecondElement - 2015.12.04 at 01h 45m 41s.xml">
+      <configuration name="FizzBuzzTest.shouldReturnTwoAsSecondElement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest_shouldReturnTwoAsSecondElement - 2015.12.04 at 01h 47m 54s.xml">
+      <configuration name="FizzBuzzTest.shouldReturnTwoAsSecondElement" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -486,7 +555,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -517,18 +586,17 @@
     <entry file="file://$PROJECT_DIR$/src/FizzBuzz.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
           <folding>
-            <element signature="e#50#51#0" expanded="true" />
-            <element signature="e#74#75#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/FizzBuzzTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19271949">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.77087796">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
