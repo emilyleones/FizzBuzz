@@ -29,4 +29,9 @@ public class FizzBuzzTest {
     public void shouldReturnBuzzAsFifthElement() {
         assertEquals("Buzz", fizzBuzz.list().get(4));
     }
+
+    @Test
+    public void shouldReturnFizzBuzzAsFifteenthElement() {
+        assertEquals("FizzBuzz", fizzBuzz.list().get(14));
+    }
 }
