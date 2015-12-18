@@ -1,37 +1,45 @@
 import org.junit.Before;
 import org.junit.Test;
+
+import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.*;
 
 public class FizzBuzzTest {
-    private FizzBuzz fizzBuzz;
+  private FizzBuzz fizzbuzz;
 
     @Before
     public void setUp() {
-        fizzBuzz = new FizzBuzz(1, 100);
+        fizzbuzz = new FizzBuzz();
+    }
+
+
+    @Test
+    public void shouldReturnNumberThatIsPassedIn(){
+        String expectedOutput = "1";
+        int ordinaryNumber = 1;
+
+        String actualOutput = fizzbuzz.print(ordinaryNumber);
+
+        assertThat(actualOutput, is(expectedOutput));
     }
 
     @Test
-    public void shouldReturnOneAsSecondElement() {
-        assertEquals("1", fizzBuzz.list().get(0));
+    public void shouldReturnFizzWhenNumberPassedInIsAMultipleOfThree(){
+        String expectedOutput = "Fizz";
+        int multipleOfThree = 9;
+
+        String actualOutput = fizzbuzz.print(multipleOfThree);
+
+        assertThat(actualOutput, is(expectedOutput));
     }
 
     @Test
-    public void shouldReturnTwoAsSecondElement() {
-        assertEquals("2", fizzBuzz.list().get(1));
-    }
+    public void shouldReturnBuzzWhenNumberPassedInIsAMultipleOfFive() {
+        String expectedOutput = "Buzz";
+        int multipleOfFive = 10;
 
-    @Test
-    public void shouldReturnFizzAsThirdElement() {
-        assertEquals("Fizz", fizzBuzz.list().get(2));
-    }
+        String actualOutput = fizzbuzz.print(multipleOfFive);
 
-    @Test
-    public void shouldReturnBuzzAsFifthElement() {
-        assertEquals("Buzz", fizzBuzz.list().get(4));
-    }
-
-    @Test
-    public void shouldReturnFizzBuzzAsFifteenthElement() {
-        assertEquals("FizzBuzz", fizzBuzz.list().get(14));
+        assertThat(actualOutput, is(expectedOutput));
     }
 }

@@ -11,10 +11,14 @@ public class FizzBuzz {
         this.end = end;
     }
 
+    public FizzBuzz(){
+
+    }
+
     public static void main(String[] args) {
-        FizzBuzz fizzBuzz = new FizzBuzz(1, 100);
-        for (String element : fizzBuzz.list()) {
-            System.out.println(element);
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        for (int i = 1; i < 101; i++){
+            System.out.println(fizzBuzz.print(i));
         }
     }
 
@@ -32,5 +36,17 @@ public class FizzBuzz {
             }
         }
         return fizzBuzzList;
+    }
+
+    public String print(int number){
+        if (number % 3 == 0) {
+            return "Fizz";
+        }
+
+        if (number % 5 == 0) {
+            return "Buzz";
+        }
+
+        return Integer.toString(number);
     }
 }
