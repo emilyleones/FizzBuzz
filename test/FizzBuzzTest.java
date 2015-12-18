@@ -5,16 +5,15 @@ import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.*;
 
 public class FizzBuzzTest {
-  private FizzBuzz fizzbuzz;
+    private FizzBuzz fizzbuzz;
 
     @Before
     public void setUp() {
         fizzbuzz = new FizzBuzz();
     }
 
-
     @Test
-    public void shouldReturnNumberThatIsPassedIn(){
+    public void shouldReturnNumberThatIsPassedIn() {
         String expectedOutput = "1";
         int ordinaryNumber = 1;
 
@@ -24,7 +23,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void shouldReturnFizzWhenNumberPassedInIsAMultipleOfThree(){
+    public void shouldReturnFizzWhenNumberPassedInIsAMultipleOfThree() {
         String expectedOutput = "Fizz";
         int multipleOfThree = 9;
 
@@ -39,6 +38,16 @@ public class FizzBuzzTest {
         int multipleOfFive = 10;
 
         String actualOutput = fizzbuzz.print(multipleOfFive);
+
+        assertThat(actualOutput, is(expectedOutput));
+    }
+
+    @Test
+    public void shouldReturnFizzBuzzWhenNumberPassedInIsAMultipleOfThreeAndFive() {
+        String expectedOutput = "FizzBuzz";
+        int multipleOfThreeAndFive = 15;
+
+        String actualOutput = fizzbuzz.print((multipleOfThreeAndFive));
 
         assertThat(actualOutput, is(expectedOutput));
     }
